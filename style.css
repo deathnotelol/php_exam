@@ -1,0 +1,86 @@
+
+div.header{
+	background-color: #9F2B68;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+div.footer{
+	background-color: #915F6D;
+	padding: 20px;
+	color:#fff;
+	text-align: center;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 18px;
+	text-align: left;
+	background-color: #f3e5f5;
+}
+th, td {
+	padding: 12px;
+	border-bottom: 2px solid #d1c4e9;
+	text-align: center;
+}
+th {
+	background-color: #66023c ;
+	color: white;
+	text-align: center;
+}
+tr:hover {
+	background-color: #d1c4e9;
+}
+table img{
+	border-radius: 50%;
+}
+.btn {
+	background-color: #b768a2;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+	background-color: #800020;
+	transform: translateY(-2px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+.btn:active {
+	transform: translateY(0);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+div.new a{
+	float:right;
+	text-decoration: none;
+	margin: 10px 30px 10px 10px;
+	font-weight: bold;
+}
+div.divider{
+	clear: both;
+}
+input[type=text], input[type=email],input[type=password]{
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+fieldset{
+	margin: 0 10% 0 10%;
+	padding:2% 5% 2% 10%;
+}
+fieldset legend{
+	margin-left: 10%;
+}
